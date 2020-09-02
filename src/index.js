@@ -7,7 +7,7 @@ import {BrowserRouter} from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="pokedex" >
+    <BrowserRouter basename="Pokedex" >
       <App />
     </BrowserRouter>
   </React.StrictMode>,
