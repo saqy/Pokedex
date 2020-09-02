@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "https://saqy.github.io/pokedex/static/js/main.4743ef4c.chunk.js",
+    "main.js.map": "https://saqy.github.io/pokedex/static/js/main.4743ef4c.chunk.js.map",
+    "runtime-main.js": "https://saqy.github.io/pokedex/static/js/runtime-main.142ba853.js",
+    "runtime-main.js.map": "https://saqy.github.io/pokedex/static/js/runtime-main.142ba853.js.map",
+    "static/js/2.47e28627.chunk.js": "https://saqy.github.io/pokedex/static/js/2.47e28627.chunk.js",
+    "static/js/2.47e28627.chunk.js.map": "https://saqy.github.io/pokedex/static/js/2.47e28627.chunk.js.map",
+    "index.html": "https://saqy.github.io/pokedex/index.html",
+    "precache-manifest.982ad4d2e281c386410d7b7e3e4a9c18.js": "https://saqy.github.io/pokedex/precache-manifest.982ad4d2e281c386410d7b7e3e4a9c18.js",
+    "service-worker.js": "https://saqy.github.io/pokedex/service-worker.js",
+    "static/js/2.47e28627.chunk.js.LICENSE.txt": "https://saqy.github.io/pokedex/static/js/2.47e28627.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.142ba853.js",
+    "static/js/2.47e28627.chunk.js",
+    "static/js/main.4743ef4c.chunk.js"
+  ]
+}
