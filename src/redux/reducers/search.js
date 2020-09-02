@@ -9,7 +9,7 @@ const initialState = {
 
 const search = (state = initialState, action) => {
   switch (action.type) {
-    case TYPES.SEARCH.RESQUEST:
+    case TYPES.SEARCH.REQUEST:
       let searchHistory = [...state.history];
       searchHistory.push(action.searchTerm);
       return {

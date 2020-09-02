@@ -7,7 +7,7 @@ const initialState = {
 
 const pokemonEvolution = (state = initialState, action) => {
   switch (action.type) {
-    case TYPES.EVOLUTION.RESQUEST:
+    case TYPES.EVOLUTION.REQUEST:
       return {
         ...state,
         isLoading: true,

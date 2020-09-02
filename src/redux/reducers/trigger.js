@@ -7,7 +7,7 @@ const initialState = {
 
 const pokemonEvolutionTrigger = (state = initialState, action) => {
   switch (action.type) {
-    case TYPES.TRIGGER.RESQUEST:
+    case TYPES.TRIGGER.REQUEST:
       return {
         ...state,
         isLoading: true,

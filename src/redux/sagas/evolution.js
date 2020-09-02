@@ -18,5 +18,5 @@ function* pokemonEvolution(action) {
 }
 
 export default function* pokemonEvolutionSaga() {
-  yield takeLatest(TYPES.EVOLUTION.RESQUEST, pokemonEvolution);
+  yield takeLatest(TYPES.EVOLUTION.REQUEST, pokemonEvolution);
 }

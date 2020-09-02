@@ -74,9 +74,9 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
   getPokemonEvolution: data =>
-    dispatch({type: TYPES.EVOLUTION.RESQUEST, pokemonId: data}),
+    dispatch({type: TYPES.EVOLUTION.REQUEST, pokemonId: data}),
   getPokemonEvolutionTrigger: data =>
-    dispatch({type: TYPES.TRIGGER.RESQUEST, pokemonId: data}),
+    dispatch({type: TYPES.TRIGGER.REQUEST, pokemonId: data}),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(PokemonEvolution);

@@ -63,7 +63,7 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
   searchPokemon: data =>
-    dispatch({type: TYPES.SEARCH.RESQUEST, searchTerm: data}),
+    dispatch({type: TYPES.SEARCH.REQUEST, searchTerm: data}),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Search);

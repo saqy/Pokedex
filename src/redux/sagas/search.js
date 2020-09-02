@@ -18,5 +18,5 @@ function* searchPokemon(action) {
 }
 
 export default function* searchPokemonSaga() {
-  yield takeLatest(TYPES.SEARCH.RESQUEST, searchPokemon);
+  yield takeLatest(TYPES.SEARCH.REQUEST, searchPokemon);
 }
