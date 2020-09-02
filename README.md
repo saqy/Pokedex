@@ -13,9 +13,9 @@ Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `About PokeDex`
+pokedex is a pokemon store where you can search and view details of a pokemon.
 
 This project uses 
-
 reactjs<br />
 es 6 <br />
 react-redux<br />
